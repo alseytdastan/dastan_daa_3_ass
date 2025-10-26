@@ -1,0 +1,8 @@
+Graph Name,Vertices,Edges,Prim MST Cost,Kruskal MST Cost,Prim Time (ms),Kruskal Time (ms),Prim Comparisons,Kruskal Comparisons,Prim Operations,Kruskal Unions,Match
+graph_1,4,5,19,19,1,0,6,14,26,3,Yes
+graph_2,5,7,8,8,0,0,16,18,38,4,Yes
+graph_3,6,9,20,20,0,0,10,33,41,5,Yes
+graph_4,10,14,123,123,0,0,39,53,65,9,Yes
+graph_5,15,21,108,108,0,0,88,100,107,14,Yes
+graph_6,20,28,167,167,0,0,170,133,146,19,Yes
+

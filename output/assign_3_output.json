@@ -1,0 +1,106 @@
+{
+  "results": [
+    {
+      "graphName": "graph_1",
+      "vertices": 4,
+      "edges": 5,
+      "prim": {
+        "mstCost": 19,
+        "executionTime": 5,
+        "comparisons": 6,
+        "operations": 26
+      },
+      "kruskal": {
+        "mstCost": 19,
+        "executionTime": 0,
+        "comparisons": 14,
+        "unions": 3
+      }
+    },
+    {
+      "graphName": "graph_2",
+      "vertices": 5,
+      "edges": 7,
+      "prim": {
+        "mstCost": 8,
+        "executionTime": 0,
+        "comparisons": 16,
+        "operations": 38
+      },
+      "kruskal": {
+        "mstCost": 8,
+        "executionTime": 0,
+        "comparisons": 18,
+        "unions": 4
+      }
+    },
+    {
+      "graphName": "graph_3",
+      "vertices": 6,
+      "edges": 9,
+      "prim": {
+        "mstCost": 20,
+        "executionTime": 0,
+        "comparisons": 10,
+        "operations": 41
+      },
+      "kruskal": {
+        "mstCost": 20,
+        "executionTime": 0,
+        "comparisons": 33,
+        "unions": 5
+      }
+    },
+    {
+      "graphName": "graph_4",
+      "vertices": 10,
+      "edges": 14,
+      "prim": {
+        "mstCost": 123,
+        "executionTime": 0,
+        "comparisons": 39,
+        "operations": 65
+      },
+      "kruskal": {
+        "mstCost": 123,
+        "executionTime": 0,
+        "comparisons": 53,
+        "unions": 9
+      }
+    },
+    {
+      "graphName": "graph_5",
+      "vertices": 15,
+      "edges": 21,
+      "prim": {
+        "mstCost": 108,
+        "executionTime": 0,
+        "comparisons": 88,
+        "operations": 107
+      },
+      "kruskal": {
+        "mstCost": 108,
+        "executionTime": 0,
+        "comparisons": 100,
+        "unions": 14
+      }
+    },
+    {
+      "graphName": "graph_6",
+      "vertices": 20,
+      "edges": 28,
+      "prim": {
+        "mstCost": 167,
+        "executionTime": 0,
+        "comparisons": 170,
+        "operations": 146
+      },
+      "kruskal": {
+        "mstCost": 167,
+        "executionTime": 0,
+        "comparisons": 133,
+        "unions": 19
+      }
+    }
+  ]
+}
