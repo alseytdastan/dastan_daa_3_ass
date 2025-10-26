@@ -1,0 +1,480 @@
+[
+  {
+    "algorithm": "Prim's Algorithm",
+    "totalCost": 8,
+    "vertices": 5,
+    "edges": 7,
+    "executionTimeMs": 0,
+    "operations": 92,
+    "success": true,
+    "mstEdges": [
+      {
+        "from": 0,
+        "to": 1,
+        "weight": 2
+      },
+      {
+        "from": 1,
+        "to": 3,
+        "weight": 1
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "weight": 2
+      },
+      {
+        "from": 3,
+        "to": 2,
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "algorithm": "Kruskal's Algorithm",
+    "totalCost": 8,
+    "vertices": 5,
+    "edges": 7,
+    "executionTimeMs": 2,
+    "operations": 40,
+    "success": true,
+    "mstEdges": [
+      {
+        "from": 1,
+        "to": 3,
+        "weight": 1
+      },
+      {
+        "from": 0,
+        "to": 1,
+        "weight": 2
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "weight": 2
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "algorithm": "Prim's Algorithm",
+    "totalCost": 11,
+    "vertices": 6,
+    "edges": 9,
+    "executionTimeMs": 0,
+    "operations": 123,
+    "success": true,
+    "mstEdges": [
+      {
+        "from": 0,
+        "to": 2,
+        "weight": 3
+      },
+      {
+        "from": 2,
+        "to": 1,
+        "weight": 1
+      },
+      {
+        "from": 1,
+        "to": 3,
+        "weight": 2
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "weight": 3
+      },
+      {
+        "from": 5,
+        "to": 4,
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "algorithm": "Kruskal's Algorithm",
+    "totalCost": 11,
+    "vertices": 6,
+    "edges": 9,
+    "executionTimeMs": 0,
+    "operations": 59,
+    "success": true,
+    "mstEdges": [
+      {
+        "from": 1,
+        "to": 2,
+        "weight": 1
+      },
+      {
+        "from": 1,
+        "to": 3,
+        "weight": 2
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "weight": 2
+      },
+      {
+        "from": 0,
+        "to": 2,
+        "weight": 3
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "algorithm": "Prim's Algorithm",
+    "totalCost": 37,
+    "vertices": 12,
+    "edges": 19,
+    "executionTimeMs": 0,
+    "operations": 321,
+    "success": true,
+    "mstEdges": [
+      {
+        "from": 0,
+        "to": 3,
+        "weight": 2
+      },
+      {
+        "from": 0,
+        "to": 1,
+        "weight": 3
+      },
+      {
+        "from": 3,
+        "to": 6,
+        "weight": 3
+      },
+      {
+        "from": 6,
+        "to": 9,
+        "weight": 3
+      },
+      {
+        "from": 1,
+        "to": 4,
+        "weight": 4
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "weight": 2
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "weight": 5
+      },
+      {
+        "from": 4,
+        "to": 7,
+        "weight": 5
+      },
+      {
+        "from": 7,
+        "to": 8,
+        "weight": 4
+      },
+      {
+        "from": 8,
+        "to": 11,
+        "weight": 4
+      },
+      {
+        "from": 11,
+        "to": 10,
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "algorithm": "Kruskal's Algorithm",
+    "totalCost": 37,
+    "vertices": 12,
+    "edges": 19,
+    "executionTimeMs": 0,
+    "operations": 130,
+    "success": true,
+    "mstEdges": [
+      {
+        "from": 0,
+        "to": 3,
+        "weight": 2
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "weight": 2
+      },
+      {
+        "from": 10,
+        "to": 11,
+        "weight": 2
+      },
+      {
+        "from": 0,
+        "to": 1,
+        "weight": 3
+      },
+      {
+        "from": 3,
+        "to": 6,
+        "weight": 3
+      },
+      {
+        "from": 6,
+        "to": 9,
+        "weight": 3
+      },
+      {
+        "from": 1,
+        "to": 4,
+        "weight": 4
+      },
+      {
+        "from": 7,
+        "to": 8,
+        "weight": 4
+      },
+      {
+        "from": 8,
+        "to": 11,
+        "weight": 4
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "weight": 5
+      },
+      {
+        "from": 4,
+        "to": 7,
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "algorithm": "Prim's Algorithm",
+    "totalCost": 79,
+    "vertices": 20,
+    "edges": 34,
+    "executionTimeMs": 0,
+    "operations": 706,
+    "success": true,
+    "mstEdges": [
+      {
+        "from": 0,
+        "to": 3,
+        "weight": 4
+      },
+      {
+        "from": 0,
+        "to": 1,
+        "weight": 5
+      },
+      {
+        "from": 1,
+        "to": 5,
+        "weight": 3
+      },
+      {
+        "from": 5,
+        "to": 4,
+        "weight": 4
+      },
+      {
+        "from": 4,
+        "to": 8,
+        "weight": 2
+      },
+      {
+        "from": 8,
+        "to": 9,
+        "weight": 5
+      },
+      {
+        "from": 9,
+        "to": 10,
+        "weight": 3
+      },
+      {
+        "from": 9,
+        "to": 13,
+        "weight": 4
+      },
+      {
+        "from": 13,
+        "to": 16,
+        "weight": 5
+      },
+      {
+        "from": 16,
+        "to": 17,
+        "weight": 3
+      },
+      {
+        "from": 17,
+        "to": 14,
+        "weight": 4
+      },
+      {
+        "from": 16,
+        "to": 19,
+        "weight": 4
+      },
+      {
+        "from": 14,
+        "to": 11,
+        "weight": 5
+      },
+      {
+        "from": 11,
+        "to": 7,
+        "weight": 4
+      },
+      {
+        "from": 7,
+        "to": 6,
+        "weight": 3
+      },
+      {
+        "from": 6,
+        "to": 2,
+        "weight": 5
+      },
+      {
+        "from": 16,
+        "to": 15,
+        "weight": 6
+      },
+      {
+        "from": 15,
+        "to": 12,
+        "weight": 3
+      },
+      {
+        "from": 19,
+        "to": 18,
+        "weight": 7
+      }
+    ]
+  },
+  {
+    "algorithm": "Kruskal's Algorithm",
+    "totalCost": 79,
+    "vertices": 20,
+    "edges": 34,
+    "executionTimeMs": 0,
+    "operations": 302,
+    "success": true,
+    "mstEdges": [
+      {
+        "from": 4,
+        "to": 8,
+        "weight": 2
+      },
+      {
+        "from": 1,
+        "to": 5,
+        "weight": 3
+      },
+      {
+        "from": 6,
+        "to": 7,
+        "weight": 3
+      },
+      {
+        "from": 9,
+        "to": 10,
+        "weight": 3
+      },
+      {
+        "from": 12,
+        "to": 15,
+        "weight": 3
+      },
+      {
+        "from": 16,
+        "to": 17,
+        "weight": 3
+      },
+      {
+        "from": 0,
+        "to": 3,
+        "weight": 4
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "weight": 4
+      },
+      {
+        "from": 7,
+        "to": 11,
+        "weight": 4
+      },
+      {
+        "from": 9,
+        "to": 13,
+        "weight": 4
+      },
+      {
+        "from": 14,
+        "to": 17,
+        "weight": 4
+      },
+      {
+        "from": 16,
+        "to": 19,
+        "weight": 4
+      },
+      {
+        "from": 0,
+        "to": 1,
+        "weight": 5
+      },
+      {
+        "from": 2,
+        "to": 6,
+        "weight": 5
+      },
+      {
+        "from": 5,
+        "to": 10,
+        "weight": 5
+      },
+      {
+        "from": 11,
+        "to": 14,
+        "weight": 5
+      },
+      {
+        "from": 13,
+        "to": 16,
+        "weight": 5
+      },
+      {
+        "from": 15,
+        "to": 16,
+        "weight": 6
+      },
+      {
+        "from": 18,
+        "to": 19,
+        "weight": 7
+      }
+    ]
+  }
+]

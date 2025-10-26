@@ -1,0 +1,125 @@
+{
+  "graphs": [
+    {
+      "name": "small_graph_1",
+      "vertices": 4,
+      "edges": [
+        {"source": 0, "destination": 1, "weight": 10},
+        {"source": 0, "destination": 2, "weight": 6},
+        {"source": 0, "destination": 3, "weight": 5},
+        {"source": 1, "destination": 3, "weight": 15},
+        {"source": 2, "destination": 3, "weight": 4}
+      ]
+    },
+    {
+      "name": "small_graph_2",
+      "vertices": 5,
+      "edges": [
+        {"source": 0, "destination": 1, "weight": 2},
+        {"source": 0, "destination": 2, "weight": 5},
+        {"source": 1, "destination": 2, "weight": 1},
+        {"source": 1, "destination": 3, "weight": 4},
+        {"source": 2, "destination": 3, "weight": 3},
+        {"source": 2, "destination": 4, "weight": 6},
+        {"source": 3, "destination": 4, "weight": 2}
+      ]
+    },
+    {
+      "name": "small_graph_3",
+      "vertices": 6,
+      "edges": [
+        {"source": 0, "destination": 1, "weight": 4},
+        {"source": 0, "destination": 2, "weight": 4},
+        {"source": 1, "destination": 2, "weight": 2},
+        {"source": 1, "destination": 3, "weight": 6},
+        {"source": 2, "destination": 3, "weight": 8},
+        {"source": 2, "destination": 4, "weight": 9},
+        {"source": 3, "destination": 4, "weight": 11},
+        {"source": 3, "destination": 5, "weight": 7},
+        {"source": 4, "destination": 5, "weight": 1}
+      ]
+    },
+    {
+      "name": "medium_graph_1",
+      "vertices": 10,
+      "edges": [
+        {"source": 0, "destination": 1, "weight": 15},
+        {"source": 0, "destination": 2, "weight": 12},
+        {"source": 0, "destination": 3, "weight": 18},
+        {"source": 1, "destination": 4, "weight": 20},
+        {"source": 2, "destination": 4, "weight": 16},
+        {"source": 2, "destination": 5, "weight": 14},
+        {"source": 3, "destination": 5, "weight": 17},
+        {"source": 3, "destination": 6, "weight": 19},
+        {"source": 4, "destination": 7, "weight": 13},
+        {"source": 5, "destination": 7, "weight": 11},
+        {"source": 5, "destination": 8, "weight": 15},
+        {"source": 6, "destination": 8, "weight": 12},
+        {"source": 7, "destination": 9, "weight": 14},
+        {"source": 8, "destination": 9, "weight": 16}
+      ]
+    },
+    {
+      "name": "medium_graph_2",
+      "vertices": 15,
+      "edges": [
+        {"source": 0, "destination": 1, "weight": 8},
+        {"source": 1, "destination": 2, "weight": 7},
+        {"source": 2, "destination": 3, "weight": 6},
+        {"source": 3, "destination": 4, "weight": 5},
+        {"source": 4, "destination": 5, "weight": 8},
+        {"source": 5, "destination": 6, "weight": 9},
+        {"source": 6, "destination": 7, "weight": 7},
+        {"source": 7, "destination": 8, "weight": 6},
+        {"source": 8, "destination": 9, "weight": 5},
+        {"source": 9, "destination": 10, "weight": 13},
+        {"source": 10, "destination": 11, "weight": 12},
+        {"source": 11, "destination": 12, "weight": 11},
+        {"source": 12, "destination": 13, "weight": 9},
+        {"source": 13, "destination": 14, "weight": 8},
+        {"source": 14, "destination": 0, "weight": 7},
+        {"source": 0, "destination": 7, "weight": 10},
+        {"source": 1, "destination": 8, "weight": 9},
+        {"source": 2, "destination": 9, "weight": 14},
+        {"source": 3, "destination": 10, "weight": 16},
+        {"source": 4, "destination": 11, "weight": 15},
+        {"source": 5, "destination": 12, "weight": 14}
+      ]
+    },
+    {
+      "name": "large_graph_1",
+      "vertices": 20,
+      "edges": [
+        {"source": 0, "destination": 1, "weight": 10},
+        {"source": 0, "destination": 5, "weight": 15},
+        {"source": 1, "destination": 2, "weight": 8},
+        {"source": 1, "destination": 6, "weight": 12},
+        {"source": 2, "destination": 3, "weight": 6},
+        {"source": 2, "destination": 7, "weight": 14},
+        {"source": 3, "destination": 4, "weight": 9},
+        {"source": 3, "destination": 8, "weight": 11},
+        {"source": 4, "destination": 9, "weight": 13},
+        {"source": 5, "destination": 10, "weight": 7},
+        {"source": 5, "destination": 11, "weight": 10},
+        {"source": 6, "destination": 12, "weight": 8},
+        {"source": 7, "destination": 13, "weight": 6},
+        {"source": 8, "destination": 14, "weight": 9},
+        {"source": 9, "destination": 15, "weight": 12},
+        {"source": 10, "destination": 16, "weight": 11},
+        {"source": 11, "destination": 17, "weight": 13},
+        {"source": 12, "destination": 18, "weight": 7},
+        {"source": 13, "destination": 19, "weight": 8},
+        {"source": 14, "destination": 19, "weight": 10},
+        {"source": 15, "destination": 16, "weight": 9},
+        {"source": 16, "destination": 17, "weight": 11},
+        {"source": 17, "destination": 18, "weight": 6},
+        {"source": 18, "destination": 19, "weight": 12},
+        {"source": 0, "destination": 10, "weight": 14},
+        {"source": 1, "destination": 11, "weight": 16},
+        {"source": 4, "destination": 14, "weight": 10},
+        {"source": 5, "destination": 15, "weight": 9}
+      ]
+    }
+  ]
+}
+
